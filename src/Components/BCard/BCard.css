@@ -5,9 +5,14 @@
 .txt-sm{
     font-size: 13px !important;
 }
+.height{
+    height: 400px;
+}
 
 @media (max-width:991px){
     .BCard-div-pos{
-        position: inherit !important;
+        position: relative !important;
+        top: 100%;
+        left: 0;
     }
 }

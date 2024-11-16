@@ -1,0 +1,10 @@
+.borderr{
+    border: 1px solid #b3d0ebaa !important;
+    outline: none;
+}
+.border-end-primary{
+    border-right: 4px solid #2837b8 !important;
+}
+.message{
+    height: 100px !important;
+}

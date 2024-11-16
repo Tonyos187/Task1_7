@@ -42,7 +42,7 @@ function OurServices() {
 
     return (
         <section className='w-100 d-flex justify-content-center align-items-center mt-4'>
-            <div className='w-75'>
+            <div className='w-75 main-div-width'>
                 <div className='d-block d-lg-flex justify-content-between'>
                     <div className='col-12 col-lg-4 mb-2'>
                         <p className='main-blue'><ArrowLeft /> Our Services <ArrowRight /></p>

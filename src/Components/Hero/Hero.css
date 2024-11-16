@@ -6,13 +6,13 @@
 
 .hero{
     height: 100vh !important;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .hero-img-div, .hero-text-div{
     height: 100% !important;
 }
 .w-max-content{
-    width: max-content;
+    width: max-content !important;
 }
 .translate-md-neg{
     translate: -50% 50%;
@@ -28,11 +28,65 @@
     width: 80px;
 }
 .rounded-thingy{
-    border-radius: 100%;
+    border-radius: 100% !important;
 }
 .bottom-thingy{
     bottom: 18% !important;
     z-index: -100 !important;
+}
+.bg-blue-light{
+    background-color: #4B5DFF !important;
+}
+
+.round-top-left{
+    border-top-left-radius: 1rem !important;
+}
+.round-top-right{
+    border-top-right-radius: 1rem !important;
+}
+.round-bot-left{
+    border-bottom-left-radius: 1rem !important;
+}
+.round-bot-right{
+    border-bottom-left-radius: 1rem !important;
+}
+.main-div-width{
+    width: 75% !important;
+}
+.first-hero-object{
+    right: -0%;
+    bottom: -25%;
+}
+.second-hero-object{
+    left: -2%;
+    bottom: -18%;
+}
+.first-cursor{
+    color: #927BFF;
+    stroke: white !important;
+    font-size: 25px;
+}
+.second-cursor{
+    color: #029FEE;
+    stroke: white !important;
+    font-size: 25px;
+}
+.first-cursor-pos{
+    top: 35%;
+    left: 65%;
+}
+.second-cursor-pos{
+    top: 40%;
+    left: 84%;
+}
+.rotate-cursor{
+    rotate: 270deg;
+}
+.bg-purple{
+    background-color: #927BFF !important;
+}
+.bg-blue{
+    background-color: #029FEE !important;
 }
 
 
@@ -54,5 +108,11 @@
     }
     .background-hero{
         background-color: #384BFF !important;
+    }
+    .span-div{
+        flex-direction: column !important;
+    }
+    .main-div-width{
+        width: 100% !important;
     }
 }

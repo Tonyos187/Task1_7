@@ -1,0 +1,25 @@
+.py-2-5{
+    padding-top: .6rem !important;
+    padding-bottom: .6rem !important;
+    border-bottom: 2.9px solid #384BFF !important;
+}
+.triangle{
+    width: 60px;
+    top: -0.3%;
+    left: 70.6%;
+    clip-path: polygon(0 50%, 70% 0, 100% 0, 100% 100%, 70% 100%); /* btw, i made this myself without googling it :D */
+    z-index: 5000;
+}
+.airplane{
+    top: 0;
+    left: 0;
+    z-index: 5000;
+}
+.buton-pos{
+    left: 15%;
+}
+@media (max-width:991px) {
+    .airplane{
+        display: none;
+    }
+}

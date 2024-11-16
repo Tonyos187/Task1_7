@@ -2,13 +2,20 @@
     height: 200px;
     translate: 0 80%;
 }
-.bg-second-purple{
+
+.main-div-width {
+    width: 75% !important;
+}
+
+.bg-second-purple {
     background-color: #18185E !important;
 }
-.bg-main-blue{
+
+.bg-main-blue {
     background-color: #384BFF !important;
 }
-.main-blue{
+
+.main-blue {
     color: #384BFF !important;
 }
 
@@ -26,15 +33,24 @@
         display: none;
     }
 
+    .main-div-width {
+        width: 50% !important;
+    }
+
+
 }
 
 @media (max-width:767px) {
-    .main-div-width {
-        width: 100% !important;
-    }
+
 
     .Blog-div {
         translate: 0 70%;
     }
 
+}
+
+@media (max-width:575px) {
+    .main-div-width {
+        width: 100% !important;
+    }
 }

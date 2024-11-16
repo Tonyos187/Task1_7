@@ -1,6 +1,6 @@
 import React from 'react'
 import "./TCard.css"
-import { Star, StarFill } from 'react-bootstrap-icons'
+import { Quote, Star, StarFill } from 'react-bootstrap-icons'
 function TCard(props) {
     return (
         <div className='col-12 col-lg-4'>
@@ -18,13 +18,14 @@ function TCard(props) {
                             "{props.text}"
                         </p>
                         <div className='d-flex justify-content-between align-items-center'>
-                            <div className='d-flex gap-2 align-items-center '>
+                            <div className='d-flex gap-2 align-items-center fa-rotate-180'>
                                 <img width={50} src={props.img} alt="" />
                                 <div>
                                     <p className={`m-0 fw-bold ${props.isActive ? "text-dark" : "text-white"}`}>{props.name}</p>
                                     <p className={`m-0 fs-TCard ${props.isActive ? "text-secondary" : "text-light"}`}>{props.job}</p>
                                 </div>
                             </div>
+                            <Quote className={`fs-1 ${props.isActive ? "text-secondary" : "text-white"}`}/>
                         </div>
                     </div>
 

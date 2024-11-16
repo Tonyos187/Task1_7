@@ -13,6 +13,7 @@ import "../../Components/Hero/Hero.css"
 const Home = () => {
   return (
     <>
+      <NavComponent />
       <Hero />
       <BrandsLogos />
       <OurServices />
@@ -20,6 +21,7 @@ const Home = () => {
       <OurPricing />
       <Testimonials />
       <BlogAndNews />
+      <Footer />
     </>
   );
 };

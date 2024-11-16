@@ -3,7 +3,7 @@ import "./BCard.css"
 import { ArrowRight } from 'react-bootstrap-icons'
 function BCard(props) {
     return (
-        <div className='col-12 col-lg-4 p-3'>
+        <div className='col-12 col-lg-4 p-3 mb-4 height'>
             <div className='position-relative w-100'>
                 <img className='w-100 rounded' src={props.img} alt="" />
                 <div className='bg-white shadow m-3 rounded-3 p-2 position-absolute BCard-div-pos'>

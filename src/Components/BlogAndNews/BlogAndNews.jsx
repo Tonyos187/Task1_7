@@ -11,14 +11,14 @@ function BlogAndNews() {
 
     const pPic1 = "src/assets/imgs/blogProfile1_2.webp"
     const pPic2 = "src/assets/imgs/blogProfile1_3.webp"
-    const pPic3 = "src/assets/imgs/blogProfile1_3.webp"
+    const pPic3 = "src/assets/imgs/blogProfile1_1.webp"
 
     return (
         <section className='w-100 d-flex justify-content-center align-items-center mt-4'>
-            <div className='w-75 main-div-width p-2'>
+            <div className='main-div-width p-2'>
                 <div className='d-block d-lg-flex justify-content-between'>
                     <div className='col-12 col-lg-5 mb-2'>
-                        <p className='text-primary'><ArrowLeft /> BLOG & News <ArrowRight /></p>
+                        <p className='text-primary'><ArrowLeft /> BLOG & NEWS <ArrowRight /></p>
                         <h3>Featured News And Insights</h3>
                     </div>
                     <div className='d-flex align-self-end gap-1'>
@@ -31,7 +31,7 @@ function BlogAndNews() {
                     </div>
                 </div>
 
-                <div className='w-100 mt-3 row mx-0 mb-5 gy-4 justify-content-center align-items-center'>
+                <div className='w-100 mt-3 row mx-0 mb-5 gy-5 justify-content-center align-items-center'>
                     <BCard img={img1} cat="Uncategorized" date="MARCH14, 2024" quate="Best And Fastest Data Sever Ever" pPic={pPic1} />
                     <BCard img={img2} cat="Technology" date="MARCH29, 2024" quate="Life Won't One Beast Air Over Above All" pPic={pPic2} />
                     <BCard img={img3} cat="Shared Hosting" date="MARCH14, 2024" quate="Attentive Was Born In 2015 Help Sales Teams" pPic={pPic3} />
